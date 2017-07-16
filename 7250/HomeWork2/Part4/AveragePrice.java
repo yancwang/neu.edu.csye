@@ -17,10 +17,6 @@ public class AveragePrice {
 		String reduce = "function(key, values) {var average = Array.sum(values) / values.length; return average;}";
 		MapReduceCommand cmd = new MapReduceCommand(collection, map, reduce, "avgHighPrice", MapReduceCommand.OutputType.REPLACE, null);
 		MapReduceOutput out = collection.mapReduce(cmd);
-//        System.out.println("Mapreduce results");
-//        for (DBObject o : out.results()) {
-//        	System.out.println(o.toString());
-//        }
 	}
 
 }
