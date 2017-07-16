@@ -26,7 +26,7 @@ import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 import org.apache.thrift.transport.TTransportException;
 
-public class thriftApp {
+public class ThriftApp {
 
 	public static void main(String[] args) {
 		try {
