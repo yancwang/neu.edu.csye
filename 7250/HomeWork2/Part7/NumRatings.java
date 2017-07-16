@@ -6,7 +6,7 @@ import com.mongodb.MapReduceCommand;
 import com.mongodb.MapReduceOutput;
 import com.mongodb.MongoClient;
 
-public class numRatings {
+public class NumRatings {
 
 	public static void main(String[] args) {
 		MongoClient client = new MongoClient();
