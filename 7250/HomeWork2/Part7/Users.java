@@ -6,7 +6,7 @@ import com.mongodb.MapReduceCommand;
 import com.mongodb.MapReduceOutput;
 import com.mongodb.MongoClient;
 
-public class users {
+public class Users {
 
 	public static void main(String[] args) {
 		MongoClient client = new MongoClient();
