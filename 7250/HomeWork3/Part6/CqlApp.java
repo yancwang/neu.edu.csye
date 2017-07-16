@@ -7,7 +7,7 @@ import java.util.Scanner;
 import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Session;
 
-public class cqlApp {
+public class CqlApp {
 
 	public static void main(String[] args) {
 		//connect to cassandra cluster
