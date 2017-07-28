@@ -4,8 +4,7 @@
 
 /**
  * A special class used to test the Vehicle class
- * @author (your name here)
- * ID: (your ID here)
+ * @author yanchen
  *
  */
 public class VehicleTest {
