@@ -2,8 +2,7 @@
 /**
  * CSYE 6200 Vehicle starter class
  * 
- * @author (your name here)
- * ID: (your ID here)
+ * @author (yanchen)
  *
  */
 public class Vehicle {
